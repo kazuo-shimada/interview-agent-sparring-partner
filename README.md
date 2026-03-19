@@ -16,21 +16,20 @@ An AI-driven conversational agent designed to act as a dynamic interview sparrin
 
 ### Installation
 
-1. **Clone the repository:**
+1. Clone the repository:**
    ```bash
    git clone [https://github.com/kazuo-shimada/interview-agent-sparring-partner.git](https://github.com/kazuo-shimada/interview-agent-sparring-partner.git)
    cd interview-agent-sparring-partner
-Set up the virtual environment:
+   
+2. Set up the virtual environment:
 
-Bash
-python3 -m venv sparring_env
-source sparring_env/bin/activate
-Install dependencies:
+   ```bash
+   python3 -m venv sparring_env
+   source sparring_env/bin/activate
 
-Bash
-python3 -m pip install -r requirements.txt
-Environment Variables:
-Create a .env file in the root directory and add your necessary API keys (e.g., OpenAI, Anthropic, or Gemini):
+3. Install dependencies:
 
-Plaintext
-LLM_API_KEY=your_api_key_here
+   ```bash
+   python3 -m pip install -r requirements.txt
+
+Enjoy your technical interview agent!
